@@ -1,3 +1,4 @@
+#TSMC Week 12
 # Kata Potter
 This is my solution for [Kata Potter problem.](https://codingdojo.org/kata/Potter/)
 
