@@ -16,13 +16,11 @@ func main() {
 		Discount: []float32{0, 0.95, 0.9, 0.8, 0.75},
 	}
 	var list []int
-	//fmt.Println("Recv: ", input)
 	for _, v := range input {
 		if string(v) == "\n" {
 			continue
 		}
 		s, _ := strconv.Atoi(string(v))
-		//fmt.Println(s)
 		list = append(list, s)
 	}
 	shoppingList := ShoppingList{
